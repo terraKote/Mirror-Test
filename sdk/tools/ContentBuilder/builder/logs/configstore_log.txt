@@ -1,0 +1,9 @@
+
+
+[2023-12-04 17:58:22] Client version: 1701290101
+[2023-12-04 17:58:22] Failed to read store 'install' from 'F:\Projects\Unity\Mirror Test\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2023-12-04 17:58:22] Failed to read store 'install' from 'F:\Projects\Unity\Mirror Test\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2023-12-04 17:58:22] Failed to read store 'install' from 'F:\Projects\Unity\Mirror Test\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2023-12-04 17:58:22] Failed to read store 'install' from 'F:\Projects\Unity\Mirror Test\sdk\tools\ContentBuilder\builder\config\config.vdf.tmp'
+[2023-12-04 17:58:23] Flushed store 'install' to 'F:\Projects\Unity\Mirror Test\sdk\tools\ContentBuilder\builder\config\config.vdf'
+[2023-12-04 17:58:24] Flushed store 'install' to 'F:\Projects\Unity\Mirror Test\sdk\tools\ContentBuilder\builder\config\config.vdf'

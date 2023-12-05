@@ -1,0 +1,20 @@
+"appbuild"
+{
+	"appid"	"480"
+	"desc"	"0.1"
+	"contentroot"	"..\content\Mirror Test\Windows"
+	"buildoutput"	"..\output\Mirror Test\Windows"
+	"depots"
+	{
+		"0"
+		{
+			"FileMapping"
+			{
+				"LocalPath"	"*"
+				"DepotPath"	"."
+				"recursive"	"1"
+			}
+			"FileExclusion"	"*.pdb"
+		}
+	}
+}

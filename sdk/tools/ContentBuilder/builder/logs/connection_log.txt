@@ -1,0 +1,52 @@
+
+
+[2023-12-04 17:58:22] Client version: 1701290101
+[2023-12-04 17:58:22] Connectivity test: Starting test, fetching 'http://test.steampowered.com/204'
+[2023-12-04 17:58:22] [Logged Off, 0, 0] [U:1:0] CCMInterface::SetSteamID( [U:1:0] )
+[2023-12-04 17:58:22] IPv6 HTTP connectivity test (ipv6check-http.steamserver.net / 0.0.0.0:80 (0.0.0.0:80)) - TIMEOUT
+[2023-12-04 17:58:22] IPv6 UDP connectivity test (ipv6check-udp.steamserver.net) - FAILED, no addresses resolved
+[2023-12-04 17:58:22] Connectivity test: OK!
+[2023-12-04 17:58:22] Connectivity test: result=Connected (since 0.0s ago), prev=Unknown, in progress=0
+[2023-12-04 17:58:22] Clearing in-memory token - 1 (OK): SetLoginInformation
+[2023-12-04 17:58:22] [Logged Off, 0, 0] [U:1:0] CCMInterface::SetSteamID( [U:1:0] )
+[2023-12-04 17:58:22] [Logged Off, 0, 0] [U:1:0] CCMInterface::SetSteamID( [U:1:0] )
+[2023-12-04 17:58:22] [Logged Off, 4, 0] [U:1:0] EConnect called - scheduling connection for 50ms from now
+[2023-12-04 17:58:22] [Logged Off, 4, 0] [U:1:0] LogOn() called; not connected yet, scheduling connection. Schedule init returned 22
+[2023-12-04 17:58:22] [Logged Off, 4, 0] [U:1:0] EConnect called - scheduling connection for 50ms from now
+[2023-12-04 17:58:22] CCMInterface::YieldingConnect -- calling ISteamDirectory/GetCMListForConnect web api
+[2023-12-04 17:58:23] GetCMListForConnect -- got 9 Netfilter CMs and 71 WebSocket CMs
+[2023-12-04 17:58:23] GetCMListForConnect -- DC 'fra2' count: 20
+[2023-12-04 17:58:23] GetCMListForConnect -- DC 'fra1' count: 20
+[2023-12-04 17:58:23] GetCMListForConnect -- DC 'sto2' count: 20
+[2023-12-04 17:58:23] GetCMListForConnect -- DC 'sto1' count: 20
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] CM Directory list says 88% of connections should be websockets, we rolled 75 - using WebSockets as default.
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra2.steamserver.net:27030) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra1.steamserver.net:27025) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra1.steamserver.net:27020) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra2.steamserver.net:27024) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra2.steamserver.net:27030) results: 53.2646ms + load 69.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra1.steamserver.net:443) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra1.steamserver.net:27025) results: 48.0607ms + load 74.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra2.steamserver.net:27024) results: 42.7217ms + load 68.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext3-sto2.steamserver.net:27025) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext3-sto2.steamserver.net:27036) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra1.steamserver.net:27020) results: 37.4362ms + load 72.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext1-sto1.steamserver.net:27030) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext3-sto2.steamserver.net:27025) results: 50.5017ms + load 68.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-sto1.steamserver.net:27029) starting...
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext3-sto2.steamserver.net:27036) results: 107.3968ms + load 68.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-fra1.steamserver.net:443) results: 118.0984ms + load 72.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() stopping after 400.00ms timeout and using good enough host (ext2-fra1.steamserver.net:27020)
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext1-sto1.steamserver.net:27030) results: 102.1824ms + load 64.0000
+[2023-12-04 17:58:23] [Connecting, 4, 0] [U:1:0] PingWebSocketCM() (ext2-sto1.steamserver.net:27029) results: 57.3602ms + load 67.0000
+[2023-12-04 17:58:23] [Connecting, 4, 3] [U:1:0] Connect() starting connection (eNetQOSLevelHigh, ext2-fra1.steamserver.net:27020, WebSocket)
+[2023-12-04 17:58:23] [Connecting, 4, 3] [U:1:0] ConnectionCompleted() (162.254.197.54:27020, WebSocket) local address (192.168.0.194:50195)
+[2023-12-04 17:58:23] [Connecting, 4, 3] [U:1:0] Client thinks it can connect via: UDP - yes, TCP - yes, WebSocket:443 - yes, WebSocket:Non443 - yes
+[2023-12-04 17:58:23] [Connected, 4, 3] [U:1:0] Logging on [U:1:0]
+[2023-12-04 17:58:24] BeginAuthSessionViaCredentials failed, 1/5 ()
+[2023-12-04 17:58:24] [Connected, 4, 3] [U:1:0] AsyncDisconnect( bDontWaitOnTCPShutdown: false )
+[2023-12-04 17:58:24] [Logged Off, 4, 0] [U:1:0] ConnectionDisconnected('Disconnected By Remote Host') : 'Invalid Password' (162.254.197.54:27020, WebSocket)
+[2023-12-04 17:58:24] [Logged Off, 4, 0] [U:1:0] ConnectionDisconnected() not auto reconnecting due to eResultLogonSession specifies no reconnect
+[2023-12-04 17:58:24] [Logged Off, 0, 0] [U:1:0] Sending SteamServerConnectFailure_t Invalid Password Do not reconnect
+[2023-12-04 17:58:24] [Logged Off, 0, 0] [U:1:0] ResetVoiceRecording() (was recording: 0) (last get voice time: 1701705504 seconds ago)
+[2023-12-04 17:58:24] [Logged Off, 0, 0] [U:1:0] Log session ended
